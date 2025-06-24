@@ -173,6 +173,14 @@ export default function App() {
         </div>
       )}
 
+      {/* Waiting for Opponent */}
+      {matchStarted && !gameStarted && !opponentLeft && (
+        <div className="h-screen flex flex-col justify-center items-center gap-4 text-center">
+          <h1 className="text-2xl font-bold">Waiting for an opponent...</h1>
+          <p className="text-lg text-gray-600">Hang tight! We’ll start as soon as someone joins.</p>
+        </div>
+      )}
+
       {/* Main Game Screen */}
       {matchStarted && gameStarted && !opponentLeft && (
         <div className="h-screen flex flex-col justify-center items-center gap-6">

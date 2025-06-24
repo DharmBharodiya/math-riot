@@ -29,7 +29,7 @@ function generateQuestionSequence(count = 100) {
         a = Math.floor(Math.random() * 90) + 10; // 10-99
         b = Math.floor(Math.random() * 90) + 10;
       } else {
-        a = Math.floor(Math.random() * 900) + 100; // 100-999
+        a = Math.floor(Math.random() * 500) + 10; // 100-999
         b = Math.floor(Math.random() * 900) + 100;
       }
       answer = a + b;
@@ -41,7 +41,7 @@ function generateQuestionSequence(count = 100) {
         if (b > a) [a, b] = [b, a]; // swap to ensure a >= b
       } else {
         a = Math.floor(Math.random() * 900) + 100;
-        b = Math.floor(Math.random() * 900) + 100;
+        b = Math.floor(Math.random() * 500) + 10;
         if (b > a) [a, b] = [b, a];
       }
       answer = a - b;
