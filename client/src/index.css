@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+/* Pastel color palette for welcome screen */
+.bg-pastel-pink { background-color: #ffd1dc; }
+.bg-pastel-blue { background-color: #c7ceea; }
+.bg-pastel-green { background-color: #b5ead7; }
+.bg-pastel-yellow { background-color: #fff5ba; }
+.bg-pastel-purple { background-color: #e0bbff; }
+.bg-pastel-orange { background-color: #ffdac1; }
+
+.bg-pastel-blue-dark { background-color: #a3bffa; }
+.bg-pastel-pink-dark { background-color: #ffb7c5; }
+.bg-pastel-green-dark { background-color: #70e1b5; }
+.bg-pastel-yellow-dark { background-color: #ffe066; }
+.bg-pastel-purple-dark { background-color: #b39ddb; }
+.bg-pastel-orange-dark { background-color: #ffb347; }
+
+.text-pastel-blue { color: #5f6caf; }
+.text-pastel-pink { color: #e75480; }
+.text-pastel-green { color: #3eb489; }
+.text-pastel-yellow { color: #bfa900; }
+.text-pastel-purple { color: #7c5e99; }
+.text-pastel-orange { color: #ff914d; }
